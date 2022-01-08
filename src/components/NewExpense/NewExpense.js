@@ -22,7 +22,7 @@ const NewExpense = ({ onAddExpense }) => {
   };
 
   return (
-    <div className="new-expense">
+    <div className='new-expense'>
       {!isEditing ? (
         <button onClick={startEdtingHandler}>Add New Expense</button>
       ) : (
